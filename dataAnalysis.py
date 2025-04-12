@@ -137,8 +137,3 @@ z_scores = stats.zscore(make_counts)
 outliers = make_counts[np.abs(z_scores) > 2]
 print("Outlier Vehicle Makes Based on Z-Score Analysis:")
 print(outliers, "\n")
-
-shapiro_test = stats.shapiro(df['Model Year'].sample(n=500, random_state=1))
-print("Shapiro-Wilk Test for Normality of Model Year:")
-print("W-statistic:", shapiro_test[0])
-print("P-value:", shapiro_test[1], "\n")
