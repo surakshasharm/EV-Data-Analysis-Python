@@ -43,7 +43,9 @@ scipy
 
 ## 📂 Dataset
 Filename: Electric_Vehicle_Population_DataSet.csv
-Source: [!Data.gov - Electric Vehicle Population Data(https://catalog.data.gov/dataset/electric-vehicle-population-data)]
+
+Source: [Data.gov - Electric Vehicle Population Data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
+
 Attributes Used: Electric Vehicle Type, Make, Model, County, City, Model Year
 
 
